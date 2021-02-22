@@ -45,7 +45,7 @@ med_test = 1
 
 actual_user = 0
 Time_var = 0
-N_days = 18
+N_days = 365
 
 
 N_new_day_from_w = []
@@ -543,7 +543,7 @@ plt.xticks(days_plot, fontsize=12)
 plt.yticks(fontsize=12)
 plt.ylim(0, 255) 
 plt.legend((p1[0], p2[0]), ('By staff', 'By patients'), fontsize=12)
-#ax.savefig('new_infec_by_p_2.pdf', format='pdf', dpi=1400)
+ax.savefig('new_infec_by_p_2.pdf', format='pdf', dpi=1400)
 plt.show()
 
 

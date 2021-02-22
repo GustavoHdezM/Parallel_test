@@ -1,0 +1,6 @@
+eraceback (most recent call last):
+  File "shifts_sympt_wall.py", line 8, in <module>
+    from funct_shifts_sympt_wall import *
+  File "/home/m/mejia/Parallel_test/funct_shifts_sympt_wall.py", line 10, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'

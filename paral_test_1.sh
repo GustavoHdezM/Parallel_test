@@ -6,10 +6,12 @@
 #SBATCH --time=1:00:00              # the max wallclock time (time limit your job will run)
  
 #SBATCH --job-name=GHM_test         # the name of your job
-#SBATCH --mail-type=ALL             # receive an email when your job starts, finishes normally or is aborted
+#SBATCH --mail-type=FAIL             # receive an email when your job starts, finishes normally or is aborted
 #SBATCH --mail-user=mejia@uni-muenster.de # your mail address
 
-python test_1_main.py
+python shifts_sympt_wall.py
+
+# python test_1_main.py
 
 # LOAD MODULES HERE IF REQUIRED
 

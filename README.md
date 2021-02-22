@@ -1,2 +1,2 @@
-# Parallel_test
+# Parallel test
 Parallel test .py

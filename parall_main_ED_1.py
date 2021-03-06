@@ -25,7 +25,7 @@ start = time.perf_counter()
 global sleep_sec
 global origin_path, Newfolder
 
-Newfolder = 'Res_2'
+Newfolder = 'Res_3'
 
 def funct_isolat(P_R,j): 
 #    day_current = day
@@ -2748,5 +2748,5 @@ if __name__ == '__main__':
 finish = time.perf_counter()
 
 print(f'Finished in {round(finish-start, 2)} second(s)')
-print(f'Finished in {round((finish-start)/60, 2)} min(s), 250 sim, N_2')
+print(f'Finished in {round((finish-start)/60, 2)} min(s), 250 sim, N_3')
 
